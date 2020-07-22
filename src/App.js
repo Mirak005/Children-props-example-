@@ -3,12 +3,12 @@ import MyComponent from "./MyComponent"
 import './App.css';
 
 const user1 = {
-  name :"Jhon" , 
+  name :"Mohamed" , 
   lastName :"Doe",
   isMale : true
 }
 const user2={
-  name :"Jane" , 
+  name :"Hejer" , 
   lastName :"Doe",
   isMale : false 
 }
