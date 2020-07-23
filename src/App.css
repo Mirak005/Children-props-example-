@@ -1,7 +1,22 @@
-.red{
-  color: red ;
+
+
+ *{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+
+.text-red{
+  color: red;
+}
+.text-white{
+  color:white ; 
+}
+.text-black{
+  color : "black" ;
 }
 
-.blue{
-  color: blue;
+.bg-dark{
+  background-color: black;
 }

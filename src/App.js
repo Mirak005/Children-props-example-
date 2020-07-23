@@ -1,28 +1,14 @@
-import React from 'react';
-import MyComponent from "./MyComponent"
-import './App.css';
+import React from 'react'
+import Register from "./Components/Register"
+import Login from "./Components/Login"
+import './App.css'
 
-const user1 = {
-  name :"Mohamed" , 
-  lastName :"Doe",
-  isMale : true
-}
-const user2={
-  name :"Hejer" , 
-  lastName :"Doe",
-  isMale : false 
-}
-const formatName = (user) => user.name + " " + user.lastName
-
-
-function App() {
+function App () {
   return (
-    <div>
-
-    <h1 className={user1.isMale ? "red" :"blue"  } >Hello {formatName(user1)}</h1>
-    <h1 className={user2.isMale ? "red" :"blue"  } >Hello {formatName(user2)}</h1>
-    </div>
-  );
+   <div>
+     <Register/>
+     <Login/>
+   </div>
+  )
 }
-
-export default App;
+export default App
